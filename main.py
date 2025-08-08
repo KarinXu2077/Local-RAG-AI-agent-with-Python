@@ -7,7 +7,7 @@ model = OllamaLLM(model="llama3.2")
 template = """
 You are an expert career advisor on new-grad-friendly tech companies
 
-Here are some relevant company profiles: {reviews}
+Here are some relevant company profiles: {profiles}
 
 Here is the question to answer: {question}
 """
@@ -21,6 +21,6 @@ while True:
     if question == "q":
         break
     
-    reviews = retriever.invoke(question)
-    result = chain.invoke({"reviews": reviews, "question": question})
+    profiles = retriever.invoke(question)
+    result = chain.invoke({"profiles": profiles, "question": question})
     print(result)
