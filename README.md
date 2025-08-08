@@ -47,7 +47,6 @@ you can replace csv with your own files, use any model available in ollama list,
 2. LangChain modules – how to glue an embeddings model, vector store, and LLM together.
 3. ChromaDB – simplest local vector store for quick hacks.
 
-🙏 Credits
-ng_friendly_companies.csv is a hypothetical sample dataset for demo purposes only.
+🙏 ng_friendly_companies.csv is a hypothetical sample dataset for demo purposes only.
 
 Feel free to fork, open issues, or submit PRs — every tweak helps solidify those skills!
